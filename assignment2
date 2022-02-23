@@ -1,0 +1,21 @@
+l=[]
+n=int(input('Enter n:'))
+for i in range(n):
+    x=int(input())
+    l.append(x)
+print('Reverse of list')    
+for i in range(n-1,-1,-1):
+    print(l[i])
+    
+ 
+ 
+ output:Enter n:4
+        1
+        2
+        3
+        4
+        Reverse of list
+        4
+        3
+        2
+        1
